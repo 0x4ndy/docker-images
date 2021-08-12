@@ -18,3 +18,4 @@ RUN tar xzvf boost_1_76_0.tar.gz
 WORKDIR /boost_1_76_0
 RUN ./bootstrap.sh --prefix=/usr/ 
 RUN ./b2 && ./b2 install
+WORKDIR /
